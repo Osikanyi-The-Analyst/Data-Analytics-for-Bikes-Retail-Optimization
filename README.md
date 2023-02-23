@@ -37,32 +37,46 @@ Customer Demographics 🧑‍🤝‍🧑
 The dataset contains customer demographic information. The following findings were identified:
 
 ❌ There are missing values in 'last_name', 'DOB', 'job_title', 'job_industry_category', 'default' and 'tenure' columns.
+
 ❌ The 'gender' column has six unique values, including invalid or incorrect values.
+
 ❌ One customer has a year of birth listed as '1843', which is likely an error.
+
 ❌ The 'default' column seems to have no relevance to the goals of the analysis.
 
 Customer Address 🏠
 The dataset contains customer address information. The following findings were identified:
 
 ❌ One customer with customer ID '3' doesn't have data in the address dataset.
+
 ❌ The 'state' column has inconsistent values.
+
 ❌ There are duplicates in the dataset based on the values in the address, postcode, state, country, and property_valuation columns.
 
 Transaction Data 💳
 The dataset contains transactional data. The following findings were identified:
 
 ❌ There are missing values in several columns, including 'online_order', 'brand', 'product_line', 'product_class', 'product_size', 'standard_cost', and 'product_first_sold_date'.
+
 ❌ Some rows have missing data in several columns.
+
 ❌ The 'product_first_sold_date' column has incorrect data.
 
 Recommendations 📌
 Based on the findings identified, the following recommendations were made to improve data quality:
 
 ✔️ Investigate and fill in missing values in the 'last_name', 'DOB', 'job_title', 'job_industry_category', 'default', and 'tenure' columns in the Customer Demographics dataset.
+
 ✔️ Clean and standardize the 'gender' column to have only two unique values, male and female, and remove any incorrect or invalid values in the Customer Demographics dataset.
+
 ✔️ Investigate and correct any errors in the 'DOB' column, such as the year of birth listed as '1843', in the Customer Demographics dataset.
+
 ✔️ Remove the 'default' column from the Customer Demographics dataset as it has no relevance to the analysis goals.
+
 ✔️ Gather the missing data in the address dataset for customer ID '3' or confirm if the customer does not have any address data.
+
 ✔️ Standardize the values in the 'state' column to avoid inconsistencies in the Customer Address dataset.
+
 ✔️ Investigate and verify the duplicates in the Customer Address dataset and take appropriate actions, such as merging the duplicate records or keeping them as separate records if they represent unique customers.
+
 ✔️ Implement measures to prevent or minimize the occurrence of duplicate records in the

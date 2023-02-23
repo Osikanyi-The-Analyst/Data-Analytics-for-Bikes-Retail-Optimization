@@ -1,4 +1,5 @@
 **📊 Data Quality Assessment and Recommendations 🚀**
+
 ***🚲 Problem Statement 📈***
 
 Sprocket Central Pty Ltd, a medium-sized bikes and cycling accessories organization, has provided 🎁 KPMG with three datasets 📊 - Customer Demographic 🕵️‍♂️, Customer Addresses 🏠, and Transactions data 💰 in the past 3 months. They require KPMG's expertise in Analytics 📈, Information & Modelling 🕸️ team to effectively analyze these datasets to help optimize their marketing strategy 🎯 and grow their business 🚀.
